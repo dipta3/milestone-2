@@ -1,16 +1,26 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@500;700&display=swap');
 
+/* common styles or utilities */
 * {
     margin: 0px;
     padding: 0px;
 }
+
+
 
 body {
     font-family: 'Poppins', sans-serif;
 
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
 
+/* Header style */
 
 header {
     margin-top: 87px;
@@ -22,15 +32,11 @@ header h1 {
     font-weight: 700;
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px;
-}
 
 
 
-/* Front Section */
+
+/* Front Section styles*/
 
 .front-section {
     display: flex;
@@ -82,7 +88,7 @@ header h1 {
 }
 
 
-/* products section */
+/* products section styles*/
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -150,7 +156,7 @@ a {
     font-weight: 900;
 }
 
-/* brands style */
+/* brands section styles */
 .brands {
     text-align: center;
     margin: 30px;
@@ -169,7 +175,7 @@ a {
 
 }
 
-/* footer style */
+/* footer section styles */
 
 footer {
     background-color: #160026;
@@ -204,7 +210,7 @@ footer {
 }
 
 /* --------------------
-    Respnsive
+    Resposive Style
 ------------------------- */
 @media (max-width:990px) {
     .front-section {
